@@ -554,16 +554,37 @@ video {
   display: none;
 }
 
+.heading-class {
+  background: linear-gradient(
+      159deg,
+      rgba(37, 37, 50, 0.98) 0%,
+      rgba(35, 35, 45, 0.98) 100%
+    );
+}
+
 .m-auto {
   margin: auto;
+}
+
+.m-5 {
+  margin: 1.25rem;
+}
+
+.my-5 {
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
 }
 
 .flex {
   display: flex;
 }
 
-.w-60 {
-  width: 15rem;
+.h-12 {
+  height: 3rem;
+}
+
+.h-24 {
+  height: 6rem;
 }
 
 .w-\[30\%\] {
@@ -574,46 +595,16 @@ video {
   width: 70%;
 }
 
-.max-w-screen-xl {
-  max-width: 1280px;
+.w-12 {
+  width: 3rem;
 }
 
-.items-center {
-  align-items: center;
+.w-24 {
+  width: 6rem;
 }
 
-.justify-between {
-  justify-content: space-between;
-}
-
-.bg-purple-500 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(168 85 247 / var(--tw-bg-opacity));
-}
-
-.bg-gray-500 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(107 114 128 / var(--tw-bg-opacity));
-}
-
-.bg-gray-900 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(17 24 39 / var(--tw-bg-opacity));
-}
-
-.bg-gray-800 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(31 41 55 / var(--tw-bg-opacity));
-}
-
-.bg-gray-600 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(75 85 99 / var(--tw-bg-opacity));
-}
-
-.bg-black {
-  --tw-bg-opacity: 1;
-  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+.max-w-screen-2xl {
+  max-width: 1536px;
 }
 
 .bg-\[\#191923\] {
@@ -621,21 +612,40 @@ video {
   background-color: rgb(25 25 35 / var(--tw-bg-opacity));
 }
 
+.bg-gray-500 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(107 114 128 / var(--tw-bg-opacity));
+}
+
+.p-5 {
+  padding: 1.25rem;
+}
+
 .text-center {
   text-align: center;
 }
 
-.text-\[50px\] {
-  font-size: 50px;
+.text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
 }
 
-.italic {
-  font-style: italic;
+.text-\[30px\] {
+  font-size: 30px;
 }
 
-.text-red-600 {
-  --tw-text-opacity: 1;
-  color: rgb(220 38 38 / var(--tw-text-opacity));
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
+.font-semibold {
+  font-weight: 600;
 }
 
 .text-white {
@@ -643,6 +653,7 @@ video {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
-.underline {
-  text-decoration-line: underline;
+.text-slate-400 {
+  --tw-text-opacity: 1;
+  color: rgb(148 163 184 / var(--tw-text-opacity));
 }
