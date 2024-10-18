@@ -4,7 +4,7 @@ var bar = new ProgressBar.Line(skill1, {
     strokeWidth: 1.72,
     easing: 'easeInOut',
     duration: 1400,
-    color: '#FFEA82',
+    color: '#99F7AB',
     trailColor: '#eee',
     trailWidth: 1,
     svgStyle: { width: '100%', height: '100%' }
@@ -17,7 +17,7 @@ var bar = new ProgressBar.Line(skill2, {
     strokeWidth: 1.72,
     easing: 'easeInOut',
     duration: 1400,
-    color: '#FFEA82',
+    color: '#99F7AB',
     trailColor: '#eee',
     trailWidth: 1,
     svgStyle: { width: '100%', height: '100%' }
@@ -30,7 +30,7 @@ var bar = new ProgressBar.Line(skill3, {
     strokeWidth: 1.72,
     easing: 'easeInOut',
     duration: 1400,
-    color: '#FFEA82',
+    color: '#99F7AB',
     trailColor: '#eee',
     trailWidth: 1,
     svgStyle: { width: '100%', height: '100%' }
@@ -43,7 +43,7 @@ var bar = new ProgressBar.Line(skill4, {
     strokeWidth: 1.72,
     easing: 'easeInOut',
     duration: 1400,
-    color: '#FFEA82',
+    color: '#99F7AB',
     trailColor: '#eee',
     trailWidth: 1,
     svgStyle: { width: '100%', height: '100%' }
@@ -56,7 +56,7 @@ var bar = new ProgressBar.Line(skill5, {
     strokeWidth: 1.72,
     easing: 'easeInOut',
     duration: 1400,
-    color: '#FFEA82',
+    color: '#99F7AB',
     trailColor: '#eee',
     trailWidth: 1,
     svgStyle: { width: '100%', height: '100%' }
@@ -69,7 +69,7 @@ var bar = new ProgressBar.Line(skill6, {
     strokeWidth: 1.72,
     easing: 'easeInOut',
     duration: 1400,
-    color: '#FFEA82',
+    color: '#99F7AB',
     trailColor: '#eee',
     trailWidth: 1,
     svgStyle: { width: '100%', height: '100%' }
@@ -82,7 +82,7 @@ var bar = new ProgressBar.Line(skill7, {
     strokeWidth: 1.72,
     easing: 'easeInOut',
     duration: 1400,
-    color: '#FFEA82',
+    color: '#99F7AB',
     trailColor: '#eee',
     trailWidth: 1,
     svgStyle: { width: '100%', height: '100%' }
