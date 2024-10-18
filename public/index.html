@@ -9,27 +9,57 @@
 </head>
 
 <body class="bg-[#191923]">
-    <div class="max-w-screen-2xl bg-gray-500 m-auto flex text-white my-5">
+    <div class="max-w-screen-xl bg-gray-500 m-auto flex text-white my-5">
         <div class="sidebar w-[30%]">
-            <div class="heading-class text-[30px] p-5">
+            <div class="heading-class p-5  flex flex-col items-center gap-2">
                 <figure class="">
                     <img src="person.png" alt="" class="w-24 h-24">
                 </figure>
-                <figcaption>
-                    <h3 class="text-3xl font-semibold">Prakash K</h3>
-                    <p class="text-xl">Data Analyst</p>
-                    <ul>
-                        <li><ion-icon name="logo-twitter"></ion-icon>
+                <figcaption class="">
+                    <h3 class="text-2xl font-semibold my-2 text-center">Prakash K</h3>
+                    <p class="text-xl my-1 text-center">Data Analyst</p>
+                    <ul class="flex gap-5 p-2 my-2">
+                        <li><a href=""><ion-icon name="logo-twitter" class="w-5 h-5"></ion-icon></a>
                         </li>
-                        <li>
-                            <ion-icon name="logo-instagram"></ion-icon>
+                        <li><a href="">
+                                <ion-icon name="logo-instagram" class="w-5 h-5"></ion-icon></a>
                         </li>
-                        <li>
-                            <ion-icon name="logo-facebook"></ion-icon>
+                        <li><a href="">
+                                <ion-icon name="logo-facebook" class="w-5 h-5"></ion-icon></a>
+                        </li>
+                        <li><a href="">
+                                <ion-icon name="logo-linkedin" class="w-5 h-5"></ion-icon></a>
+                        </li>
+                        <li><a href="">
+                                <ion-icon name="logo-medium" class="w-5 h-5"></ion-icon></a>
                         </li>
 
                     </ul>
                 </figcaption>
+            </div>
+            <div class="skills bg-[#212529] p-5 text-base font-normal">
+                <ul class="my-5 mx-2 flex flex-col gap-5">
+                    <li id="skill1">
+                        SQL
+                    </li>
+                    <li id="skill2">
+                        Python (Pandas, Numpy, Matplotlib, Seaborn, PySpark, Scikit-Learn)
+                    </li>
+                    <li id="skill3">
+                        Google BigQuery, MySQL, MSSQL Server, Presto
+                    </li>
+                    <li id="skill4">
+                        Tableau, Looker Studio, Power BI
+                    </li>
+                    <li id="skill5">
+                        Agile Model, Jira, Rally, Asana, Kanban
+                    </li>
+                    <li id="skill6">Colaboratory, Unidash, Dataswarm, VSCode, Excel, D3.js</li>
+                    <li id="skill7">Highcharts, Google PLX, Clarinet ETL, Pantheon</li>
+                </ul>
+
+
+
             </div>
         </div>
 
@@ -48,6 +78,8 @@
 
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="JS/progressbar.min.js"></script>
+    <script src="script.js"></script>
 </body>
 
 </html>
