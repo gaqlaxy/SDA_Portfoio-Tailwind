@@ -119,4 +119,5 @@ typewriter
   .deleteAll()
   .typeString("<strong>altered!</strong>")
   .pauseFor(500)
+  .deleteAll()
   .start();

@@ -10,4 +10,28 @@
       rgba(35, 35, 45, 0.98) 100%
     );
   }
+  .hire-btn {
+    transition: all 0.3s ease-in-out;
+
+    box-shadow: 10px 10px 0 #191923;
+  }
+  .hire-btn:hover {
+    background: linear-gradient(
+      159deg,
+      rgba(37, 37, 50, 0.98) 0%,
+      rgba(35, 35, 45, 0.98) 100%
+    );
+
+    translate: 5px -5px;
+    box-shadow: none;
+  }
+  /* .hero-section {
+    background-image: url("/Public/Images/data.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    filter: blur(3px);
+    -webkit-filter: blur(3px);
+  } */
 }
