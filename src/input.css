@@ -25,13 +25,4 @@
     translate: 5px -5px;
     box-shadow: none;
   }
-  /* .hero-section {
-    background-image: url("/Public/Images/data.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
-    filter: blur(3px);
-    -webkit-filter: blur(3px);
-  } */
 }
