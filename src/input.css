@@ -66,4 +66,8 @@
     top: 10px;
     left: -4px;
   }
+  .vertext {
+    /* text-orientation: upright; */
+    writing-mode: vertical-rl;
+  }
 }

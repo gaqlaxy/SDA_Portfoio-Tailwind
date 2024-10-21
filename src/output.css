@@ -620,12 +620,29 @@ body {
   left: -4px;
 }
 
+.vertext {
+  /* text-orientation: upright; */
+  writing-mode: vertical-rl;
+}
+
 .absolute {
   position: absolute;
 }
 
 .relative {
   position: relative;
+}
+
+.-right-7 {
+  right: -1.75rem;
+}
+
+.bottom-\[-0\.1rem\] {
+  bottom: -0.1rem;
+}
+
+.-right-5 {
+  right: -1.25rem;
 }
 
 .m-auto {
@@ -760,6 +777,10 @@ body {
   max-width: 1450px;
 }
 
+.cursor-pointer {
+  cursor: pointer;
+}
+
 .list-disc {
   list-style-type: disc;
 }
@@ -843,6 +864,11 @@ body {
 .px-10 {
   padding-left: 2.5rem;
   padding-right: 2.5rem;
+}
+
+.px-3 {
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
 }
 
 .px-4 {
@@ -979,6 +1005,11 @@ body {
 .hover\:border-\[\#99F7AB\]:hover {
   --tw-border-opacity: 1;
   border-color: rgb(153 247 171 / var(--tw-border-opacity));
+}
+
+.hover\:bg-\[\#20202a\]:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(32 32 42 / var(--tw-bg-opacity));
 }
 
 .hover\:text-\[\#99F7AB\]:hover {
