@@ -25,11 +25,11 @@
     translate: 5px -5px;
     box-shadow: none;
   }
+
   .timeline {
-    margin: 2rem;
     position: relative;
-    padding: 2rem;
-    border-left: white;
+
+    border-left: 5px solid #191923;
   }
   .timeline div {
     padding: 2rem;
@@ -40,17 +40,18 @@
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     position: relative;
   }
-  /* .timeline div::before {
+
+  .timeline div::before {
     position: absolute;
-    left: 0;
-    top: 15px;
     content: "";
-    border: 3px solid black;
-    border-radius: 50%;
+    left: -42px;
+    top: 8px;
     width: 15px;
     height: 15px;
-    background-color: white;
-  } */
+    border-radius: 50%;
+    border: solid 3px #99f7ab;
+    background: #191923;
+  }
   .timeline div::after {
     position: absolute;
     content: "";
