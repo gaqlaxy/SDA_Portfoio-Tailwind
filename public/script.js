@@ -96,28 +96,29 @@ var app = document.getElementById("app");
 
 var typewriter = new Typewriter(app, {
   loop: true,
+  delay: 100,
 });
 
 typewriter
   .typeString("Turning Data into Insights")
-  .pauseFor(500)
+  .pauseFor(350)
   .deleteAll()
   .typeString("Expert in Data Cleaning, Exploration, and Visualization")
-  .pauseFor(500)
+  .pauseFor(350)
   .deleteAll()
   .typeString("Predictive Modeling & Statistical Analysis")
-  .pauseFor(500)
+  .pauseFor(300)
   .deleteAll()
   .typeString("Automating Reports and Dashboards")
-  .pauseFor(500)
+  .pauseFor(300)
   .deleteAll()
   .typeString("Telling Stories with Data")
-  .pauseFor(500)
+  .pauseFor(300)
   .deleteAll()
   .typeString("Driving Business Decisions with Data")
-  .pauseFor(500)
+  .pauseFor(300)
   .deleteAll()
   .typeString("<strong>altered!</strong>")
-  .pauseFor(500)
+  .pauseFor(300)
   .deleteAll()
   .start();

@@ -1,118 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>SDA Portfolio</title>
-    <link rel="stylesheet" href="../src/output.css" />
-  </head>
 
-  <body class="bg-[#191923]">
-    <div class="max-w-screen-xl bg-[#20202a] m-auto flex text-white my-5">
-      <div class="sidebar w-[30%]">
-        <aside>
-          <div class="heading-class p-5 flex flex-col items-center gap-2">
-            <figure class="">
-              <img src="person.png" alt="" class="w-24 h-24" />
-            </figure>
-            <figcaption class="">
-              <h3 class="text-2xl font-semibold my-2 text-center">S D</h3>
-              <p class="text-xl my-1 text-center">Data Analyst</p>
-              <ul class="flex gap-5 p-2 my-2">
-                <li>
-                  <a href=""
-                    ><ion-icon name="logo-twitter" class="w-5 h-5"></ion-icon
-                  ></a>
-                </li>
-                <li>
-                  <a href="">
-                    <ion-icon name="logo-instagram" class="w-5 h-5"></ion-icon
-                  ></a>
-                </li>
-                <li>
-                  <a href="">
-                    <ion-icon name="logo-facebook" class="w-5 h-5"></ion-icon
-                  ></a>
-                </li>
-                <li>
-                  <a href="">
-                    <ion-icon name="logo-linkedin" class="w-5 h-5"></ion-icon
-                  ></a>
-                </li>
-                <li>
-                  <a href="">
-                    <ion-icon name="logo-medium" class="w-5 h-5"></ion-icon
-                  ></a>
-                </li>
-              </ul>
-            </figcaption>
-          </div>
-          <div class="skills bg-[#212529] p-5 text-base font-normal">
-            <ul class="my-5 mx-2 flex flex-col gap-5">
-              <li id="skill1">SQL</li>
-              <li id="skill2">
-                Python (Pandas, Numpy, Matplotlib, Seaborn, PySpark,
-                Scikit-Learn)
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SDA Portfolio</title>
+  <link rel="stylesheet" href="../src/output.css" />
+</head>
+
+<body class="bg-[#191923]">
+  <div class="max-w-screen-xl bg-[#20202a] m-auto flex text-white my-5">
+    <div class="sidebar w-[30%]">
+      <aside>
+        <div class="heading-class p-5 flex flex-col items-center gap-2">
+          <figure class="">
+            <img src="person.png" alt="" class="w-24 h-24" />
+          </figure>
+          <figcaption class="">
+            <h3 class="text-2xl font-semibold my-2 text-center">Name</h3>
+            <p class="text-xl my-1 text-center">Data Analyst</p>
+            <ul class="flex gap-5 p-2 my-2">
+              <li>
+                <a href=""><ion-icon name="logo-twitter" class="w-5 h-5"></ion-icon></a>
               </li>
-              <li id="skill3">Google BigQuery, MySQL, MSSQL Server, Presto</li>
-              <li id="skill4">Tableau, Looker Studio, Power BI</li>
-              <li id="skill5">Agile Model, Jira, Rally, Asana, Kanban</li>
-              <li id="skill6">
-                Colaboratory, Unidash, Dataswarm, VSCode, Excel, D3.js
+              <li>
+                <a href="">
+                  <ion-icon name="logo-instagram" class="w-5 h-5"></ion-icon></a>
               </li>
-              <li id="skill7">
-                Highcharts, Google PLX, Clarinet ETL, Pantheon
+              <li>
+                <a href="">
+                  <ion-icon name="logo-facebook" class="w-5 h-5"></ion-icon></a>
+              </li>
+              <li>
+                <a href="">
+                  <ion-icon name="logo-linkedin" class="w-5 h-5"></ion-icon></a>
+              </li>
+              <li>
+                <a href="">
+                  <ion-icon name="logo-medium" class="w-5 h-5"></ion-icon></a>
               </li>
             </ul>
+          </figcaption>
+        </div>
+        <div class="skills bg-[#212529] p-5 text-base font-normal">
+          <ul class="my-5 mx-2 flex flex-col gap-5">
+            <li id="skill1">SQL</li>
+            <li id="skill2">
+              Python (Pandas, Numpy, Matplotlib, Seaborn, PySpark,
+              Scikit-Learn)
+            </li>
+            <li id="skill3">Google BigQuery, MySQL, MSSQL Server, Presto</li>
+            <li id="skill4">Tableau, Looker Studio, Power BI</li>
+            <li id="skill5">Agile Model, Jira, Rally, Asana, Kanban</li>
+            <li id="skill6">
+              Colaboratory, Unidash, Dataswarm, VSCode, Excel, D3.js
+            </li>
+            <li id="skill7">
+              Highcharts, Google PLX, Clarinet ETL, Pantheon
+            </li>
+          </ul>
+        </div>
+      </aside>
+    </div>
+    <div class="content w-[70%]">
+      <!-- Hero Section -->
+      <div class="hero-section bg-[url('/Public/Images/data.jpg')] bg-cover mt-4 mx-4">
+        <div class="pt-10 px-10 pb-10 backdrop-filter bg-transparent backdrop-blur-xl bg-cover">
+          <h2 class="text-[40px] font-bold">Data Enthusiast</h2>
+          <h4 class="font-semibold text-[22px]">
+            Bridging the gap between data and decision-making
+          </h4>
+          <p class="text-[20px] font-semibold text-[#99F7AB] mt-2 mb-5" id="app"></p>
+          <div class="buttons mt-16 flex justify-start items-center">
+            <a href=""
+              class="hire-btn mt-7 border px-10 py-3 text-lg font-semibold tracking-wider uppercase hover:text-[#99F7AB] hover:border-[#99F7AB]">Hire
+              me</a>
+            <a href=""
+              class="mx-14 tracking-wider uppercase font-semibold text-lg hover:text-[#99F7AB] transition-colors mt-6">Resume
+              <ion-icon name="chevron-forward-outline" class="absolute w-7 h-7 hover:animate-pulse"></ion-icon></a>
           </div>
-        </aside>
+        </div>
       </div>
-      <div class="content w-[70%]">
-        <!-- Hero Section -->
-        <div
-          class="hero-section bg-[url('/Public/Images/data.jpg')] bg-cover mt-4 mx-4"
-        >
-          <div
-            class="pt-10 px-10 pb-10 backdrop-filter bg-transparent backdrop-blur-xl bg-cover"
-          >
-            <h2 class="text-[40px] font-bold">Data Enthusiast</h2>
-            <h4 class="font-semibold text-[22px]">
-              Bridging the gap between data and decision-making
-            </h4>
-            <p
-              class="text-[20px] font-semibold text-[#99F7AB] mt-2 mb-5"
-              id="app"
-            ></p>
-            <div class="buttons mt-16 flex justify-start items-center">
-              <a
-                href=""
-                class="hire-btn mt-7 border px-10 py-3 text-lg font-semibold tracking-wider uppercase hover:text-[#99F7AB] hover:border-[#99F7AB]"
-                >Hire me</a
-              >
-              <a
-                href=""
-                class="mx-14 tracking-wider uppercase font-semibold text-lg hover:text-[#99F7AB] transition-colors mt-6"
-                >Resume
-                <ion-icon
-                  name="chevron-forward-outline"
-                  class="absolute w-7 h-7 hover:animate-pulse"
-                ></ion-icon
-              ></a>
-            </div>
-          </div>
-        </div>
-        <!-- Skills Section  -->
-        <div
-          class="flex items-center justify-around mx-3 mt-6 font-semibold tracking-wider text-[#99F7AB] text-lg"
-        >
-          <h3>12+ Years of experience</h3>
-          <h3>20+ Technologies</h3>
-          <h3>10+ Certifications</h3>
-        </div>
+      <!-- Skills Section  -->
+      <div class="flex items-center justify-around mx-3 mt-6 font-semibold tracking-wider text-[#99F7AB] text-lg">
+        <h3>12+ Years of experience</h3>
+        <h3>20+ Technologies</h3>
+        <h3>10+ Certifications</h3>
+      </div>
 
-        <!-- Work & Education  -->
-        <!-- Creative Tim Component  -->
-        <!-- <div class="flex">
+      <!-- Work & Education  -->
+      <!-- Creative Tim Component  -->
+      <!-- <div class="flex">
             
 <div class="py-10 container mx-auto px-5">
     
@@ -195,20 +173,15 @@
          </div>
      </div>
          </div> -->
-      </div>
     </div>
+  </div>
 
-    <script
-      type="module"
-      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
-    ></script>
-    <script
-      nomodule
-      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
-    ></script>
-    <script src="JS/progressbar.min.js"></script>
-    <script src="https://unpkg.com/typewriter-effect@2.3.1/dist/core.js"></script>
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+  <script src="JS/progressbar.min.js"></script>
+  <script src="https://unpkg.com/typewriter-effect@2.3.1/dist/core.js"></script>
 
-    <script src="script.js"></script>
-  </body>
+  <script src="script.js"></script>
+</body>
+
 </html>
