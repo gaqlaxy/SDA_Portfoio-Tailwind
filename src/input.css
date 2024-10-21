@@ -3,6 +3,9 @@
 @tailwind utilities;
 
 @layer components {
+  body {
+    scroll-behavior: smooth;
+  }
   .heading-class {
     background: linear-gradient(
       159deg,
