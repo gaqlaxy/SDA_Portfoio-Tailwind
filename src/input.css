@@ -25,4 +25,41 @@
     translate: 5px -5px;
     box-shadow: none;
   }
+  .timeline {
+    margin: 2rem;
+    position: relative;
+    padding: 2rem;
+    border-left: white;
+  }
+  .timeline div {
+    padding: 2rem;
+    border: 1px solid white;
+    border: none;
+    margin-bottom: 1rem;
+    background-color: #343a40;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    position: relative;
+  }
+  /* .timeline div::before {
+    position: absolute;
+    left: 0;
+    top: 15px;
+    content: "";
+    border: 3px solid black;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    background-color: white;
+  } */
+  .timeline div::after {
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 0;
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    border-right: 5px solid #343a40;
+    top: 10px;
+    left: -4px;
+  }
 }
