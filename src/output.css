@@ -633,16 +633,12 @@ body {
   position: relative;
 }
 
-.-right-7 {
-  right: -1.75rem;
+.-right-5 {
+  right: -1.25rem;
 }
 
 .bottom-\[-0\.1rem\] {
   bottom: -0.1rem;
-}
-
-.-right-5 {
-  right: -1.25rem;
 }
 
 .m-auto {
