@@ -90,6 +90,32 @@ var bar = new ProgressBar.Line(skill7, {
 
 bar.animate(0.8); // Number from 0.0 to 1.0
 
+// Skill8
+var bar = new ProgressBar.Line(skill8, {
+  strokeWidth: 1.72,
+  easing: "easeInOut",
+  duration: 1400,
+  color: "#99F7AB",
+  trailColor: "#eee",
+  trailWidth: 1,
+  svgStyle: { width: "100%", height: "100%" },
+});
+
+bar.animate(0.8); // Number from 0.0 to 1.0
+
+// Skill9
+var bar = new ProgressBar.Line(skill9, {
+  strokeWidth: 1.72,
+  easing: "easeInOut",
+  duration: 1400,
+  color: "#99F7AB",
+  trailColor: "#eee",
+  trailWidth: 1,
+  svgStyle: { width: "100%", height: "100%" },
+});
+
+bar.animate(0.8); // Number from 0.0 to 1.0
+
 // Typewriter
 
 var app = document.getElementById("app");
