@@ -70,4 +70,43 @@
     /* text-orientation: upright; */
     writing-mode: vertical-rl;
   }
+  .loader-container {
+    inset: 0;
+    background-color: black;
+    position: fixed;
+    z-index: 999;
+    display: grid;
+    place-content: center;
+  }
+
+  .loader {
+    position: relative;
+    width: 4rem;
+    height: 4rem;
+    border: 0.4rem solid #99f7ab;
+    border-left-color: transparent;
+    border-right-color: transparent;
+    border-radius: 50%;
+    animation: 0.8s ease infinite alternate pre-loader;
+  }
+  @keyframes pre-loader {
+    from {
+      transform: rotate(0deg) scale(1);
+    }
+    to {
+      transform: rotate(1turn) scale(1.2);
+    }
+  }
+  .loader-container.hidden {
+    opacity: 0;
+    visibility: hidden;
+  }
+  .page-content {
+    opacity: 0;
+    transform: translate3d(0, -1rem, 0);
+  }
+  .page-content.visible {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
 }
